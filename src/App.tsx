@@ -49,7 +49,7 @@ function App() {
         </div>
         <div className='buttons'>
           <a 
-            href={`https://twitter.com/intent/tweet?hashtags=quote&related=freecodecamp&text=${quote.quote}`} 
+            href={`https://twitter.com/intent/tweet?hashtags=quote&related=freecodecamp&text=${quote.quote} -${quote.author}`} 
             id='tweet-quote'
             style={{
               backgroundColor: randomColor, transition,
